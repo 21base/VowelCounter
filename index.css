@@ -1,0 +1,63 @@
+/* Copyright 2022 21base  */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #3ba7ce;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.vowelCounter {
+    width: 400px;
+    background: #f3f3f3;
+    border-radius: 4px;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: #3ba7ce;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: calc(100% - 30px);
+    height: 100px;
+    resize: none;
+    border: none;
+    border-radius: 4px;
+    padding: 15px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: rgb(36, 32, 32);
+}
+
+textarea:focus {
+    outline: none;
+}
+
+p {
+    margin-bottom: 10px;
+    color: #ce713b;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background: #3ba7ce;
+    color: #fff;
+    cursor: pointer;
+}
